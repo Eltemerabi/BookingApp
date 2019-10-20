@@ -1,0 +1,49 @@
+<div *ngFor="let hotel of hotels">
+        <a routerLink="" class="btn btn-block">
+    <mat-card class="card-width">
+        <mat-card-content>
+            <div class="row">
+                <div class="col-md-2">
+                    <mat-card>
+                        <mat-card-content>
+                                <img mat-card-image src="./assets/images/default.png">
+                        </mat-card-content>
+                    </mat-card>
+                </div>
+                <div class="col-md-10">
+                    <div class="row">
+                        <div class="col-md-10">
+                                <mat-card-header>
+                                        <mat-card-title><span class="title-color">Hotel Name</span></mat-card-title>
+                                        <mat-card-subtitle>Hotel Address paste it here</mat-card-subtitle>
+                                </mat-card-header>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h5>Good</h5>
+                                    <h6>198 reviews</h6>
+                                </div>
+                                <div class="col-md-6">
+                                        <h4 style="width: 100%;"><span class="badge badge-secondary pull-right">7.0</span></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-10">
+                                <mat-card-header>
+                                        <mat-card-title>Room Details</mat-card-title>
+                                        <mat-card-subtitle>all the room details paste it here</mat-card-subtitle>
+                                </mat-card-header>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </mat-card-content>
+        <mat-card-actions align="end"> 
+            <button class="btn btn-primary">See our last available rooms ></button>
+        </mat-card-actions>
+    </mat-card>
+    </a>
+    </div>

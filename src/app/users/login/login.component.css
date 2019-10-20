@@ -1,0 +1,12 @@
+.card-width{
+    /* max-width: 800px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-div{
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

@@ -1,0 +1,32 @@
+<div class="card-width">
+    <mat-card>
+        <mat-card-header>
+            <mat-card-title>Login</mat-card-title>
+            <mat-card-subtitle>Please provide your valid username and password.</mat-card-subtitle>
+            <mat-card-subtitle>
+                <label for="register" class="mr-sm-2">Don't have an account?</label>
+                <a routerLink="/signup">Register here</a>
+            </mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+            <form>
+                <div class="form-group">
+                    <input type="text" class="form-control mb-2 mr-sm-2" id="username" placeholder="Email or Username">
+                </div>
+                <div class="form-group">
+                        <input type="password" class="form-control mb-2 mr-sm-2" id="password" placeholder="Password">
+                    </div>
+                    <div class="custom-control custom-checkbox mb-3">
+                        <input type="checkbox" class="custom-control-input" id="remember" name="remember">
+                        <label class="custom-control-label mr-sm-2" for="remember">Remember me</label>
+                    </div>
+                    <div class="form-group">
+                        <a routerLink="/forgot-password">Forgot password ?</a>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary btn-block mb-2 mr-sm-2">Login</button>
+                    </div>
+            </form>
+        </mat-card-content>
+    </mat-card>
+</div>
